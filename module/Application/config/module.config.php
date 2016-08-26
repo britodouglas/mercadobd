@@ -43,6 +43,15 @@ return [
                         'action'     => 'index',
                     ],
                 ],
+            ],'anuncio' => [
+                'type'    => Segment::class,
+                'options' => [
+                    'route'    => '/anuncio[/:action]',
+                    'defaults' => [
+                        'controller' => Controller\AnuncioController::class,
+                        'action'     => 'index',
+                    ],
+                ],
             ],
         ],
     ],
@@ -50,6 +59,7 @@ return [
         'factories' => [
             Controller\IndexController::class => InvokableFactory::class,
             Controller\LoginController::class => InvokableFactory::class,
+            Controller\AnuncioController::class => InvokableFactory::class,
         ],
     ],
     'view_manager' => [
