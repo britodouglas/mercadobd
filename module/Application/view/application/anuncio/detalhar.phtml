@@ -258,6 +258,17 @@
 </div>
 
 <!-- /.modal -->
+<!-- bxSlider Javascript file -->
+
+<?= $this->inlineScript()
+    ->prependFile($this->basePath('assets/plugins/bxslider/jquery.bxslider.min.js'))
+?>
+<script>
+    $('.bxslider').bxSlider({
+        pagerCustom: '#bx-pager'
+    });
+
+</script>
 
 
 </body>

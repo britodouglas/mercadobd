@@ -23,4 +23,9 @@ class AnuncioController extends AbstractActionController
 
         return new ViewModel();
     }
+
+    public function cadastrarAction(){
+
+        return new ViewModel();
+    }
 }

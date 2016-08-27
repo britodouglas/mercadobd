@@ -7,6 +7,8 @@
 
 namespace Application\Controller;
 
+use Application\Model\Usuario;
+use Zend\Http\PhpEnvironment\Request;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
@@ -19,6 +21,26 @@ class LoginController extends AbstractActionController
 
     public function cadastrarAction(){
 
-        return new ViewModel();
+        $request = new Request();
+
+        if ($request->isPost()){
+
+            $nome = $request->getPost()->nome;
+            $cpf = $request->getPost()->cpf;
+            $telefone = $request->getPost()->telefone;
+            $email = $request->getPost()->email;
+            $passwd = hash("sha256", $request->getPost()->passwd);
+            $categoria = $request->getPost()->categoria;
+            $sexo = $request->getPost()->sexo;
+
+            $usuario = new Usuario($nome, $cpf, $telefone, $passwd, $email, $categoria, $sexo);
+
+            $usuario->create();
+
+            return new ViewModel(array('usuario' => $usuario));
+        } else{
+            return new ViewModel();
+        }
+
     }
 }

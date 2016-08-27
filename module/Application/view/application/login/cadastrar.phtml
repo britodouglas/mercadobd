@@ -10,7 +10,7 @@
 
                         <div class="row">
                             <div class="col-sm-12">
-                                <form class="form-horizontal">
+                                <form class="form-horizontal" method="post" action="<?php $this->basePath('login/cadastrar')?>">
                                     <fieldset>
                                         <div class="form-group required">
                                             <label class="col-md-4 control-label">You are a <sup>*</sup></label>
@@ -18,36 +18,37 @@
                                             <div class="col-md-6">
                                                 <div class="radio">
                                                     <label>
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios1"
-                                                               value="option1" checked>
-                                                        Professional </label>
+                                                        <input type="radio" name="categoria" id="optionsRadios1"
+                                                               value="profissional" checked>
+                                                        Profissional </label>
                                                 </div>
                                                 <div class="radio">
                                                     <label>
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios2"
-                                                               value="option2">
-                                                        Individual </label>
+                                                        <input type="radio" name="categoria" id="optionsRadios2"
+                                                               value="particular">
+                                                        Particular </label>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <!-- Text input-->
                                         <div class="form-group required">
-                                            <label class="col-md-4 control-label">Primeiro Nome<sup>*</sup></label>
+                                            <label class="col-md-4 control-label">Nome <sup>*</sup></label>
 
                                             <div class="col-md-6">
-                                                <input name="" placeholder="Primeiro Nome" class="form-control input-md"
+                                                <input name="nome" placeholder="Nome" class="form-control input-md"
                                                        required="" type="text">
                                             </div>
                                         </div>
 
                                         <!-- Text input-->
                                         <div class="form-group required">
-                                            <label class="col-md-4 control-label">Último Nome<sup>*</sup></label>
+                                            <label class="col-md-4 control-label">CPF <sup>*</sup></label>
 
                                             <div class="col-md-6">
-                                                <input name="textinput" placeholder="Último Nome"
-                                                       class="form-control input-md" type="text">
+                                                <input name="cpf" placeholder="CPF" class="form-control input-md"
+                                                       required="" type="text" maxlength="11">
+                                                <small> Sem pontos e traços</small>
                                             </div>
                                         </div>
 
@@ -56,7 +57,7 @@
                                             <label class="col-md-4 control-label">Telefone <sup>*</sup></label>
 
                                             <div class="col-md-6">
-                                                <input name="textinput" placeholder="Telefone"
+                                                <input name="telefone" placeholder="Telefone"
                                                        class="form-control input-md" type="text">
 
                                                 <div class="checkbox">
@@ -75,32 +76,32 @@
                                             <div class="col-md-6">
                                                 <div class="radio">
                                                     <label for="Gender-0">
-                                                        <input name="Gender" id="Gender-0" value="1" checked="checked"
+                                                        <input name="sexo" id="Gender-0" value="M" checked="checked"
                                                                type="radio">
                                                         Masculino </label>
                                                 </div>
                                                 <div class="radio">
                                                     <label for="Gender-1">
-                                                        <input name="Gender" id="Gender-1" value="2" type="radio">
+                                                        <input name="sexo" id="Gender-1" value="F" type="radio">
                                                         Feminino </label>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div class="form-group required">
-                                            <label for="inputEmail3" class="col-md-4 control-label">Email
+                                            <label for="email" class="col-md-4 control-label">Email
                                                 <sup>*</sup></label>
 
                                             <div class="col-md-6">
-                                                <input type="email" class="form-control" id="inputEmail3"
+                                                <input type="email" name="email" class="form-control" id="email"
                                                        placeholder="Email">
                                             </div>
                                         </div>
                                         <div class="form-group required">
-                                            <label for="inputPassword3" class="col-md-4 control-label">Senha </label>
+                                            <label for="password" class="col-md-4 control-label">Senha </label>
 
                                             <div class="col-md-6">
-                                                <input type="password" class="form-control" id="inputPassword3"
+                                                <input type="password" class="form-control" id="password"
                                                        placeholder="Password">
 
                                                 <p class="help-block">No mínimo 6 caracteres
@@ -119,7 +120,7 @@
                                                             & Condições</a> </label>
                                                 </div>
                                                 <div style="clear:both"></div>
-                                                <a class="btn btn-primary" href="account-home.html">Registrar</a></div>
+                                                <button type="submit" class="btn btn-primary">Registrar</button></div>
                                         </div>
                                     </fieldset>
                                 </form>
