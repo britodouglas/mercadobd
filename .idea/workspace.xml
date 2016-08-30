@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f59e1350-c568-40f6-9e45-47930025dab9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Application/src/Adapter/Conexao.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Application/src/Model/Usuario.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Application/view/application/anuncio/cadastrar.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Application/src/Controller/AnuncioController.php" afterPath="$PROJECT_DIR$/module/Application/src/Controller/AnuncioController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Application/src/Controller/LoginController.php" afterPath="$PROJECT_DIR$/module/Application/src/Controller/LoginController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Application/view/application/anuncio/detalhar.phtml" afterPath="$PROJECT_DIR$/module/Application/view/application/anuncio/detalhar.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Application/view/application/anuncio/cadastrar.phtml" afterPath="$PROJECT_DIR$/module/Application/view/application/anuncio/cadastrar.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Application/view/application/index/index.phtml" afterPath="$PROJECT_DIR$/module/Application/view/application/index/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Application/view/application/login/cadastrar.phtml" afterPath="$PROJECT_DIR$/module/Application/view/application/login/cadastrar.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" afterPath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" />
     </list>
     <ignored path="mercadobd.iws" />
@@ -37,7 +29,7 @@
       <file leaf-file-name="Usuario.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Application/src/Model/Usuario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="882">
               <caret line="55" column="79" selection-start-line="55" selection-start-column="79" selection-end-line="55" selection-end-column="79" />
               <folding>
                 <element signature="e#7#88#0#PHP" expanded="true" />
@@ -47,27 +39,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.phtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="layout.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state relative-caret-position="364">
+              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding>
-                <marker date="1472266727335" expanded="true" signature="2125:2141" ph="..." />
-                <marker date="1472266727335" expanded="true" signature="2518:2548" ph="..." />
-                <marker date="1472266727335" expanded="true" signature="3626:3669" ph="..." />
-                <marker date="1472266727335" expanded="true" signature="3626:3749" ph="..." />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1472507066557" expanded="true" signature="2125:2141" ph="..." />
+                <marker date="1472507066557" expanded="true" signature="2489:2519" ph="..." />
+                <marker date="1472507066557" expanded="true" signature="3625:3668" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/Application/view/application/index/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="36">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,7 +69,7 @@
       <file leaf-file-name="detalhar.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Application/view/application/anuncio/detalhar.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
+            <state relative-caret-position="4860">
               <caret line="270" column="9" selection-start-line="270" selection-start-column="9" selection-end-line="270" selection-end-column="9" />
               <folding>
                 <marker date="1472265062288" expanded="true" signature="2471:2543" ph="..." />
@@ -87,7 +81,7 @@
       <file leaf-file-name="Conexao.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Application/src/Adapter/Conexao.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="234">
               <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
               <folding>
                 <element signature="e#39#67#0#PHP" expanded="true" />
@@ -99,7 +93,7 @@
       <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Application/src/Controller/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
+            <state relative-caret-position="504">
               <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding>
                 <element signature="e#315#345#0#PHP" expanded="true" />
@@ -121,8 +115,8 @@
       <file leaf-file-name="cadastrar.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Application/view/application/anuncio/cadastrar.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="292">
+              <caret line="118" column="106" selection-start-line="118" selection-start-column="106" selection-end-line="118" selection-end-column="106" />
               <folding />
             </state>
           </provider>
@@ -134,15 +128,11 @@
             <state relative-caret-position="486">
               <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
               <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#7;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <marker date="1472261701750" expanded="true" signature="591:643" ph="..." />
                 <marker date="1472261701750" expanded="true" signature="974:1043" ph="..." />
                 <marker date="1472261701750" expanded="true" signature="1441:1510" ph="..." />
                 <marker date="1472261701750" expanded="true" signature="3808:3877" ph="..." />
-                <marker date="1472261701750" expanded="true" signature="7694:7704" ph="..." />
-                <marker date="1472261701750" expanded="true" signature="8452:8592" ph="..." />
-                <marker date="1472261701750" expanded="true" signature="8846:9003" ph="..." />
-                <marker date="1472261701750" expanded="true" signature="9258:9424" ph="..." />
-                <marker date="1472261701750" expanded="false" signature="10146:10152" ph="©" />
               </folding>
             </state>
           </provider>
@@ -166,9 +156,9 @@
         <option value="$PROJECT_DIR$/module/Application/src/Model/Usuario.php" />
         <option value="$PROJECT_DIR$/module/Application/src/Controller/AnuncioController.php" />
         <option value="$PROJECT_DIR$/module/Application/view/application/anuncio/detalhar.phtml" />
+        <option value="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" />
         <option value="$PROJECT_DIR$/module/Application/view/application/index/index.phtml" />
         <option value="$PROJECT_DIR$/module/Application/view/application/anuncio/cadastrar.phtml" />
-        <option value="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" />
       </list>
     </option>
   </component>
@@ -210,6 +200,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,6 +217,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mercadobd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadobd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadobd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadobd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadobd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -512,8 +536,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -591,7 +613,8 @@
       <workItem from="1472166161251" duration="5349000" />
       <workItem from="1472229526761" duration="2898000" />
       <workItem from="1472248089241" duration="3187000" />
-      <workItem from="1472261521514" duration="5798000" />
+      <workItem from="1472261521514" duration="6133000" />
+      <workItem from="1472506843686" duration="3934000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiras alteracoes, criando as telas de login, cadastro e a landing page">
       <created>1472179133030</created>
@@ -607,17 +630,24 @@
       <option name="project" value="LOCAL" />
       <updated>1472180050664</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Primeiras alteracoes, criando as telas de login, cadastro e a landing page">
+      <created>1472269343392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1472269343392</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23961000" />
+    <option name="totallyTimeSpent" value="28230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23904689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23904689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -656,6 +686,66 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/module/Application/view/application/anuncio/detalhar.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4860">
+          <caret line="270" column="9" selection-start-line="270" selection-start-column="9" selection-end-line="270" selection-end-column="9" />
+          <folding>
+            <marker date="1472265062288" expanded="true" signature="2471:2543" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/src/Adapter/Conexao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="e#39#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/src/Controller/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#315#345#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/src/Controller/AnuncioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/view/application/anuncio/cadastrar.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/view/application/login/cadastrar.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#7;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <marker date="1472261701750" expanded="true" signature="591:643" ph="..." />
+            <marker date="1472261701750" expanded="true" signature="974:1043" ph="..." />
+            <marker date="1472261701750" expanded="true" signature="1441:1510" ph="..." />
+            <marker date="1472261701750" expanded="true" signature="3808:3877" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/src/Model/Usuario.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
@@ -692,15 +782,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#7;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <marker date="1472261701750" expanded="true" signature="591:643" ph="..." />
             <marker date="1472261701750" expanded="true" signature="974:1043" ph="..." />
             <marker date="1472261701750" expanded="true" signature="1441:1510" ph="..." />
             <marker date="1472261701750" expanded="true" signature="3808:3877" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="7694:7704" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="8452:8592" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="8846:9003" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="9258:9424" ph="..." />
-            <marker date="1472261701750" expanded="false" signature="10146:10152" ph="©" />
           </folding>
         </state>
       </provider>
@@ -710,10 +796,10 @@
         <state relative-caret-position="1170">
           <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
           <folding>
-            <marker date="1472266727335" expanded="true" signature="2125:2141" ph="..." />
-            <marker date="1472266727335" expanded="true" signature="2518:2548" ph="..." />
-            <marker date="1472266727335" expanded="true" signature="3626:3669" ph="..." />
-            <marker date="1472266727335" expanded="true" signature="3626:3749" ph="..." />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1472507066557" expanded="true" signature="2125:2141" ph="..." />
+            <marker date="1472507066557" expanded="true" signature="2489:2519" ph="..." />
+            <marker date="1472507066557" expanded="true" signature="3625:3668" ph="..." />
           </folding>
         </state>
       </provider>
@@ -757,15 +843,11 @@
         <state relative-caret-position="1782">
           <caret line="99" column="108" selection-start-line="99" selection-start-column="108" selection-end-line="99" selection-end-column="108" />
           <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#7;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <marker date="1472261701750" expanded="true" signature="591:643" ph="..." />
             <marker date="1472261701750" expanded="true" signature="974:1043" ph="..." />
             <marker date="1472261701750" expanded="true" signature="1441:1510" ph="..." />
             <marker date="1472261701750" expanded="true" signature="3808:3877" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="7694:7704" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="8452:8592" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="8846:9003" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="9258:9424" ph="..." />
-            <marker date="1472261701750" expanded="false" signature="10146:10152" ph="©" />
           </folding>
         </state>
       </provider>
@@ -796,10 +878,10 @@
         <state relative-caret-position="1170">
           <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
           <folding>
-            <marker date="1472266727335" expanded="true" signature="2125:2141" ph="..." />
-            <marker date="1472266727335" expanded="true" signature="2518:2548" ph="..." />
-            <marker date="1472266727335" expanded="true" signature="3626:3669" ph="..." />
-            <marker date="1472266727335" expanded="true" signature="3626:3749" ph="..." />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1472507066557" expanded="true" signature="2125:2141" ph="..." />
+            <marker date="1472507066557" expanded="true" signature="2489:2519" ph="..." />
+            <marker date="1472507066557" expanded="true" signature="3625:3668" ph="..." />
           </folding>
         </state>
       </provider>
@@ -843,15 +925,11 @@
         <state relative-caret-position="144">
           <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
           <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#7;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <marker date="1472261701750" expanded="true" signature="591:643" ph="..." />
             <marker date="1472261701750" expanded="true" signature="974:1043" ph="..." />
             <marker date="1472261701750" expanded="true" signature="1441:1510" ph="..." />
             <marker date="1472261701750" expanded="true" signature="3808:3877" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="7694:7704" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="8452:8592" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="8846:9003" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="9258:9424" ph="..." />
-            <marker date="1472261701750" expanded="false" signature="10146:10152" ph="©" />
           </folding>
         </state>
       </provider>
@@ -875,10 +953,10 @@
         <state relative-caret-position="720">
           <caret line="40" column="97" selection-start-line="40" selection-start-column="97" selection-end-line="40" selection-end-column="97" />
           <folding>
-            <marker date="1472266727335" expanded="true" signature="2125:2141" ph="..." />
-            <marker date="1472266727335" expanded="true" signature="2518:2548" ph="..." />
-            <marker date="1472266727335" expanded="true" signature="3626:3669" ph="..." />
-            <marker date="1472266727335" expanded="true" signature="3626:3749" ph="..." />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1472507066557" expanded="true" signature="2125:2141" ph="..." />
+            <marker date="1472507066557" expanded="true" signature="2489:2519" ph="..." />
+            <marker date="1472507066557" expanded="true" signature="3625:3668" ph="..." />
           </folding>
         </state>
       </provider>
@@ -954,7 +1032,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/src/Model/Usuario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="882">
           <caret line="55" column="79" selection-start-line="55" selection-start-column="79" selection-end-line="55" selection-end-column="79" />
           <folding>
             <element signature="e#7#88#0#PHP" expanded="true" />
@@ -968,22 +1046,18 @@
         <state relative-caret-position="486">
           <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
           <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#7;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <marker date="1472261701750" expanded="true" signature="591:643" ph="..." />
             <marker date="1472261701750" expanded="true" signature="974:1043" ph="..." />
             <marker date="1472261701750" expanded="true" signature="1441:1510" ph="..." />
             <marker date="1472261701750" expanded="true" signature="3808:3877" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="7694:7704" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="8452:8592" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="8846:9003" ph="..." />
-            <marker date="1472261701750" expanded="true" signature="9258:9424" ph="..." />
-            <marker date="1472261701750" expanded="false" signature="10146:10152" ph="©" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/src/Adapter/Conexao.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="234">
           <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding>
             <element signature="e#39#67#0#PHP" expanded="true" />
@@ -993,7 +1067,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/src/Controller/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
+        <state relative-caret-position="504">
           <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
           <folding>
             <element signature="e#315#345#0#PHP" expanded="true" />
@@ -1003,7 +1077,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/view/application/anuncio/detalhar.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
+        <state relative-caret-position="4860">
           <caret line="270" column="9" selection-start-line="270" selection-start-column="9" selection-end-line="270" selection-end-column="9" />
           <folding>
             <marker date="1472265062288" expanded="true" signature="2471:2543" ph="..." />
@@ -1019,31 +1093,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/view/application/index/index.phtml">
+    <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="364">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1472507066557" expanded="true" signature="2125:2141" ph="..." />
+            <marker date="1472507066557" expanded="true" signature="2489:2519" ph="..." />
+            <marker date="1472507066557" expanded="true" signature="3625:3668" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/view/application/anuncio/cadastrar.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="292">
+          <caret line="118" column="106" selection-start-line="118" selection-start-column="106" selection-end-line="118" selection-end-column="106" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
+    <entry file="file://$PROJECT_DIR$/module/Application/view/application/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        <state relative-caret-position="36">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding>
-            <marker date="1472266727335" expanded="true" signature="2125:2141" ph="..." />
-            <marker date="1472266727335" expanded="true" signature="2518:2548" ph="..." />
-            <marker date="1472266727335" expanded="true" signature="3626:3669" ph="..." />
-            <marker date="1472266727335" expanded="true" signature="3626:3749" ph="..." />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
