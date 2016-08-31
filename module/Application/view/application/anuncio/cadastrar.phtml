@@ -10,14 +10,14 @@
 
                         <div class="row">
                             <div class="col-sm-12">
-                                <form class="form-horizontal">
+                                <form class="form-horizontal" action="<?php $this->basePath("anuncio/cadastrar")?>" method="post">
                                     <fieldset>
                                         <!-- Select Basic -->
                                         <div class="form-group">
                                             <label class="col-md-3 control-label">Categoria</label>
 
                                             <div class="col-md-8">
-                                                <select name="category-group" id="category-group" class="form-control">
+                                                <select name="categoria-grupo" id="categoria-grupo" class="form-control">
                                                     <option value="0" selected="selected"> Selecione uma categoria...</option>
                                                     <option value="Veículos"
                                                             style="background-color:#E9E9E9;font-weight:bold;"
@@ -80,22 +80,22 @@
                                             <label class="col-md-3 control-label">Tipo do anúncio</label>
 
                                             <div class="col-md-8">
-                                                <label class="radio-inline" for="radios-0">
-                                                    <input name="radios" id="radios-0" value="Particular" checked="checked"
+                                                <label class="radio-inline" for="tipo-anuncio-0">
+                                                    <input name="tipo-anuncio" id="tipo-anuncio-0" value="Particular" checked="checked"
                                                            type="radio">
                                                     Particular </label>
-                                                <label class="radio-inline" for="radios-1">
-                                                    <input name="radios" id="radios-1" value="Profissional" type="radio">
+                                                <label class="radio-inline" for="tipo-anuncio-1">
+                                                    <input name="tipo-anuncio" id="tipo-anuncio-1" value="Profissional" type="radio">
                                                     Profissional </label>
                                             </div>
                                         </div>
 
                                         <!-- Text input-->
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label" for="Adtitle">Título</label>
+                                            <label class="col-md-3 control-label" for="titulo">Título</label>
 
                                             <div class="col-md-8">
-                                                <input id="Adtitle" name="Adtitle" placeholder="Título"
+                                                <input id="titulo" name="titulo" placeholder="Título"
                                                        class="form-control input-md" required="" type="text">
                                                 <span class="help-block">Um bom título necessita pelo menos 60 caracteres. </span>
                                             </div>
@@ -103,31 +103,30 @@
 
                                         <!-- Textarea -->
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label" for="textarea">Descrição do anúncio</label>
+                                            <label class="col-md-3 control-label" for="descricao">Descrição do anúncio</label>
 
                                             <div class="col-md-8">
-                                                <textarea class="form-control" id="textarea" name="textarea">Descreva
-                                                aqui o seu anúncio</textarea>
+                                                <textarea class="form-control" id="descricao" name="descricao"></textarea>
                                             </div>
                                         </div>
 
                                         <!-- Prepended text-->
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label" for="Price">Preço</label>
+                                            <label class="col-md-3 control-label" for="preco">Preço</label>
 
                                             <div class="col-md-4">
                                                 <div class="input-group"><span class="input-group-addon">R$</span>
-                                                    <input id="Price" name="Price" class="form-control"
+                                                    <input id="preco" name="preco" class="form-control"
                                                            placeholder="Preço" required="" type="text">
                                                 </div>
                                             </div>
-                                            <div class="col-md-4">
+                                            <!--<div class="col-md-4">
                                                 <div class="checkbox">
                                                     <label>
                                                         <input type="checkbox">
                                                         Negociável </label>
                                                 </div>
-                                            </div>
+                                            </div>-->
                                         </div>
 
                                         <!-- photo -->
@@ -305,7 +304,7 @@
                                         </div> -->
 
                                         <!-- terms -->
-                                        <div class="form-group">
+                                        <!--<div class="form-group">
                                             <label class="col-md-3 control-label">Terms</label>
 
                                             <div class="col-md-8">
@@ -314,13 +313,13 @@
                                                            value="Remember above contact information." type="checkbox">
                                                     Remember above contact information. </label>
                                             </div>
-                                        </div>
+                                        </div>-->
 
                                         <!-- Button  -->
                                         <div class="form-group">
                                             <label class="col-md-3 control-label"></label>
 
-                                            <div class="col-md-8"><a href="posting-success.html" id="button1id"
+                                            <div class="col-md-8"><a href="" id="button1id"
                                                                      class="btn btn-success btn-lg">Enviar</a></div>
                                         </div>
                                     </fieldset>
