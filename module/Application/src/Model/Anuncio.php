@@ -21,11 +21,29 @@ class Anuncio
     protected $vendedor_cidade;
     protected $categoria_grupo;
 
-    function __construct($id_anuncio, $titulo, $descricao, $categoria, $preco, $vendedor_nome, $vendedor_email,
+    function __construct()
+    {
+
+        $this->id_anuncio = null;
+        $this->titulo = null;
+        $this->descricao = null;
+        $this->categoria = null;
+        $this->preco = null;
+        $this->vendedor_nome = null;
+        $this->vendedor_email = null;
+        $this->vendedor_telefone = null;
+        $this->vendedor_estado = null;
+        $this->vendedor_cidade = null;
+        $this->categoria_grupo = null;
+        $this->criado_em = null;
+        $this->atualizado_em = null;
+
+    }
+
+    public function criar($titulo, $descricao, $categoria, $preco, $vendedor_nome, $vendedor_email,
                          $vendedor_telefone, $vendedor_estado, $vendedor_cidade, $categoria_grupo)
     {
 
-        $this->id_anuncio = $id_anuncio;
         $this->titulo = $titulo;
         $this->descricao = $descricao;
         $this->categoria = $categoria;
@@ -60,6 +78,42 @@ class Anuncio
 
         $insertString = $sql->buildSqlString($insert);
         $result = $adapter->query($insertString, $adapter::QUERY_MODE_EXECUTE);
+
+    }
+
+    public function buscarAnuncioPorID($id_anuncio){
+
+        $adapter = Conexao::getConexao();
+
+        $sql = new Sql($adapter);
+
+        $select = $sql->select('anuncios');
+
+        $select->where(array('id_anuncio' => $id_anuncio));
+
+        $selectString = $sql->buildSqlString($select);
+        $result = $adapter->query($selectString, $adapter::QUERY_MODE_EXECUTE);
+
+        $result = $result->toArray();
+
+        $count = count($result);
+
+        if ($count > 0){
+
+            $this->titulo = $result[0]['titulo'];
+            $this->descricao = $result[0]['descricao'];
+            $this->categoria = $result[0]['categoria'];
+            $this->preco = $result[0]['preco'];
+            $this->vendedor_nome = $result[0]['vendedor_nome'];
+            $this->vendedor_email = $result[0]['vendedor_email'];
+            $this->vendedor_telefone = $result[0]['vendedor_telefone'];
+            $this->vendedor_estado = $result[0]['vendedor_estado'];
+            $this->vendedor_cidade = $result[0]['vendedor_cidade'];
+            $this->categoria_grupo = $result[0]['categoria_grupo'];
+            $this->criado_em = $result[0]['criado_em'];
+            $this->atualizado_em = $result[0]['atualizado_em'];
+
+        }
 
     }
 

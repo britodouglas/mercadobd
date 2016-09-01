@@ -7,6 +7,7 @@
 
 namespace Application\Controller;
 
+use Application\Model\Anuncio;
 use Zend\Http\PhpEnvironment\Request;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
@@ -15,13 +16,6 @@ class AnuncioController extends AbstractActionController
 {
     public function indexAction()
     {
-        return new ViewModel();
-    }
-
-    public function detalharAction(){
-
-        $id = $this->params()->fromPost('id');
-
         return new ViewModel();
     }
 
@@ -41,12 +35,32 @@ class AnuncioController extends AbstractActionController
             $vendedor_telefone = $request->getPost()->vendedor_telefone;
             $vendedor_estado = $request->getPost()->vendedor_estado;
             $vendedor_cidade = $request->getPost()->vendedor_cidade;
-            $categoria = $request->getPost()->categoria_grupo;
+            $categoria_grupo = $request->getPost()->categoria_grupo;
+
+            $anuncio = new Anuncio();
+
+            $anuncio->criar($titulo, $descricao, $categoria, $preco, $vendedor_nome, $vendedor_email,
+                                    $vendedor_telefone, $vendedor_estado, $vendedor_cidade, $categoria_grupo);
+
+            $anuncio->save();
 
 
-            return new ViewModel(array());
+            return new ViewModel(array('anuncio' => $anuncio));
         } else{
             return new ViewModel();
         }
+    }
+
+    public function detalharAction(){
+
+        $request = new Request();
+
+        if ($request->isGet()){
+
+            $id = $request->getQuery('id');
+
+
+        }
+
     }
 }
